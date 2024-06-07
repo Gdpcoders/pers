@@ -12,8 +12,9 @@ header {
     background-color: #483D8B;
     color: black;
     text-align: center;
-    padding: 1em 0;
+    padding: 0.5em 0;
     text-transform: uppercase;
+    margin: 0;
 }
 
 main {
