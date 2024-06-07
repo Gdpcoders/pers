@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     background-color: black;
     background-image: url("fundo_code.jpg");
+    background-size: cover;
 }
 
 header {
