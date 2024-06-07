@@ -1,6 +1,17 @@
+body {
+    background-color: black;
+
+}
+header {
+    background-color: #483D8B;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    text-transform: uppercase;
+}
 h1 {
     display:flex;
     justify-content: center;
     color: aquamarine;
-    
+
 }
