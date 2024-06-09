@@ -3,7 +3,7 @@ body {
 
 }
 header {
-    background-color: #483D8B;
+    background-color: #191970;
     color: black;
     text-align: center;
     padding: 1em 0;
@@ -12,6 +12,6 @@ header {
 h1 {
     display:flex;
     justify-content: center;
-    color: aquamarine;
+    color: white;
 
 }
