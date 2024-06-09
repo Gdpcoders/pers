@@ -21,7 +21,7 @@ h1 {
 section {
     margin-bottom: 0.5em;
     padding: 1em;
-    border: 1px solid orange;
+    border: 1px solid rgb(0,0,40);
     background-color: rgb(0,0,40);
 }
 
@@ -71,5 +71,5 @@ li {
     background-color: #191970;
     margin: 0.5em 0;
     padding: 0.5em;
-    border: 1px solid orange;
+    border: 1px solid rgb(0,0,40);
 }
