@@ -16,6 +16,11 @@ h1 {
 
 }
 
+.box {
+    border-radius: 40px;
+    border-color: white;
+    
+}
 p {
     color: white;
     text-transform: uppercase;
