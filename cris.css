@@ -13,8 +13,7 @@ h1 {
     display:flex;
     justify-content: center;
     color: white;
-    filter: text-shadow(rgb(20, 0, 120));
-    text-shadow: ;
+    text-shadow: rgb(20, 0, 120);
     
 
 }
