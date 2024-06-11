@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'DinaRemasterII', Arial;
-    src: url('/fonts/DinaRemasterII.woff2') format('woff2'),
-    url('/fonts/DinaRemasterII.woff') format('woff');
+    src: url('Gdpcoders/pers/fonts/DinaRemasterII.woff2') format('woff2'),
+    url('Gdpcoders/pers/fonts/DinaRemasterII.woff') format('woff');
 }
 
 body {
@@ -59,7 +59,7 @@ input[type="text"] {
     font-size: 1em;
     border: 1px solid rgb(0,0,40);
     border-radius: 40px;
-    max-width: 30px;
+
     margin-right: 0.5em;
     background-color: black;
     color: white;
@@ -75,7 +75,7 @@ button {
     border-radius: 40px;
     cursor: pointer;
     justify-content: right;
-    max-width: 20px;
+
 }
 
 button:hover {
