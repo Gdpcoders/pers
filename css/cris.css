@@ -52,7 +52,7 @@ input[type="text"] {
     border: 1px solid rgb(0,0,40);
     border-radius: 40px;
     width: 80%;
-    max-width: 200px;
+    max-width: 30px;
     margin-right: 0.5em;
     background-color: black;
     color: white;
@@ -69,7 +69,7 @@ button {
     cursor: pointer;
     justify-content: right;
     width: 80%;
-    max-width: 200px;
+    max-width: 20px;
 }
 
 button:hover {
@@ -94,8 +94,3 @@ li {
 h2 #ras {
     color: red;
 }
-
-#ras {
-    color: green;
-}
-
