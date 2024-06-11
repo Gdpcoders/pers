@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    background-image: url("pers/undo_code.jpg");
+    background-image: url("/fundo_code.jpg");
     background-size: cover;
 }
 
