@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: darkblue;
     background-image: url("/fundo_code.jpg");
     background-size: cover;
 }
