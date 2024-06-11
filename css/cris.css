@@ -54,6 +54,8 @@ input[type="text"] {
     width: 80%;
     max-width: 200px;
     margin-right: 0.5em;
+    background-color: black;
+    color: white;
 }
 
 button {
