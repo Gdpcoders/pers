@@ -47,7 +47,7 @@ li {
 }
 
 li:hover {
-  background-color: white;
+  background-color: rbg(0,80,0);
 }
 
 footer {
