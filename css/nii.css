@@ -3,8 +3,8 @@
 /* Targeting the boddy element */
 @font-face {
     font-family: 'DinaRemasterII', Arial;
-    src: url('../css/fonts/DinaRemasterII.woff2') format('woff2'),
-         url('../css/fonts/DinaRemasterII.woff') format('woff');
+    src: url('../../pers/css/fonts/DinaRemasterII.woff2') format('woff2'),
+         url('../../pers/css/fonts/DinaRemasterII.woff') format('woff');
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 /* Targeting headings */
 h1 {
     text-align: center;
-    color: rgb(153, 252, 4);
+    color: rgb(252, 4, 4);
     font-family: 'DinaRemasterII', sans-serif;
 
 }
