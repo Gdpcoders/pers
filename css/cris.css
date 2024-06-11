@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'DinaRemasterII', Arial;
+    src: url('pers/fonts/DinaRemasterII.woff2') format('woff2'),
+    url('pers/fonts/DinaRemasterII.woff') format('woff');
+}
+
 body {
     background-color: black;
 
@@ -93,4 +99,8 @@ li {
 }
 h2 #ras {
     color: red;
+}
+
+#t1{
+    font-family: 'DinaRemasterII', sans-serif;
 }
