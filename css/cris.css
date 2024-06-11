@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'DinaRemasterII', Arial;
-    src: url('pers/fonts/DinaRemasterII.woff2') format('woff2'),
-    url('pers/fonts/DinaRemasterII.woff') format('woff');
+    src: url('/fonts/DinaRemasterII.woff2') format('woff2'),
+    url('/fonts/DinaRemasterII.woff') format('woff');
 }
 
 body {
@@ -49,6 +49,8 @@ h2 {
 form {
     display: flex;
     justify-content: center;
+    width: 80%;
+    max-width: 400px;
 
 }
 
@@ -57,12 +59,11 @@ input[type="text"] {
     font-size: 1em;
     border: 1px solid rgb(0,0,40);
     border-radius: 40px;
-    width: 80%;
     max-width: 30px;
     margin-right: 0.5em;
     background-color: black;
     color: white;
-    margin-bottom: 40px;
+
 }
 
 button {
@@ -74,7 +75,6 @@ button {
     border-radius: 40px;
     cursor: pointer;
     justify-content: right;
-    width: 80%;
     max-width: 20px;
 }
 
