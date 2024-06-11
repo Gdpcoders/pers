@@ -3,8 +3,8 @@
 /* Targeting the boddy element */
 @font-face {
     font-family: 'DinaRemasterII';
-    src: url('c:users/david/downloads/dina-font-ttf-remastered-master/DinaRemasterII.woff2') format('woff2'),
-    url('c:users/david/downloads/dina-font-ttf-remastered-master/DinaRemasterII.woff') format('woff');
+    src: url('Gdpcoders/pers/fonts/DinaRemasterII.woff2') format('woff2'),
+    url('Gdpcoders/pers/fonts/DinaRemasterII.woff') format('woff');
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
