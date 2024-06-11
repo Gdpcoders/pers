@@ -3,8 +3,8 @@
 /* Targeting the boddy element */
 @font-face {
     font-family: 'DinaRemasterII', Arial;
-    src: url('../fonts/DinaRemasterII.woff2') format('woff2'),
-    url('../fonts/DinaRemasterII.woff') format('woff');
+    src: url('pers/fonts/DinaRemasterII.woff2') format('woff2'),
+    url('pers/fonts/DinaRemasterII.woff') format('woff');
 }
 body {
     background-color: black;
