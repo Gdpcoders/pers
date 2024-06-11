@@ -4,7 +4,7 @@ body {
 }
 header {
     background-color: rgb(0,0,40);
-    color: rgb(0,0,14);
+    color: #ffffff;
     text-align: center;
     padding: 0.5em 0;
     text-transform: uppercase;
@@ -12,7 +12,7 @@ header {
 }
 
 #pesquisa {
-    dis
+    display: flex;
 }
 h1 {
     display:flex;
@@ -30,7 +30,7 @@ section {
     background-color: rgb(0,0,40);
 }
 
-h2 {
+.test h2 {
     border-bottom: 2px solid #4CAF50;
     padding-bottom: 0.5em;
     
