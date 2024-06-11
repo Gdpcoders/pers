@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'DinaRemasterII', Arial;
+    src: url('pers/fonts/DinaRemasterII.woff2') format('woff2'),
+    url('pers/fonts/DinaRemasterII.woff') format('woff');
+}
+
 body {
     background-color: black;
 
@@ -52,7 +58,7 @@ input[type="text"] {
     border: 1px solid rgb(0,0,40);
     border-radius: 40px;
     width: 80%;
-    max-width: 200px;
+    max-width: 30px;
     margin-right: 0.5em;
     background-color: black;
     color: white;
@@ -69,7 +75,7 @@ button {
     cursor: pointer;
     justify-content: right;
     width: 80%;
-    max-width: 200px;
+    max-width: 20px;
 }
 
 button:hover {
@@ -95,7 +101,6 @@ h2 #ras {
     color: red;
 }
 
-#ras {
-    color: green;
+#t1{
+    font-family: 'DinaRemasterII', sans-serif;
 }
-
