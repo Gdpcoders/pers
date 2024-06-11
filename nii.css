@@ -2,7 +2,7 @@
 
 /* Targeting the boddy element */
 @font-face {
-    font-family: 'DinaRemasterII';
+    font-family: 'DinaRemasterII', Arial;
     src: url('Gdpcoders/pers/fonts/DinaRemasterII.woff2') format('woff2'),
     url('Gdpcoders/pers/fonts/DinaRemasterII.woff') format('woff');
 }
