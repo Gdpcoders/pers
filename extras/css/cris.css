@@ -119,6 +119,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 8px;
 }
 #imgs {
     width: 200px;
