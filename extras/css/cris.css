@@ -110,6 +110,7 @@ ul {
 
 .imgs {
     justify-content: space-between;
+    align-items: center;
 }
 #imgs {
     width: 200px;
