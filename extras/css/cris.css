@@ -114,6 +114,7 @@ ul {
 }
 
 .imgs {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
