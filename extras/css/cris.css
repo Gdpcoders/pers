@@ -17,10 +17,6 @@ header {
 
 }
 
-#pesquisa {
-    display: flex;
-    justify-content: right;
-}
 
 #logo {
     font-size: 20px;
@@ -28,6 +24,7 @@ header {
     text-shadow: 1px 1px 0px rgb(255,0,0)
                  1.5px 1.5px 0px rgb(0,255,0)
                  2px 2px 0px rgb(0,0,255);
+    display: flex;
     justify-content: left;
 }
 
@@ -75,9 +72,9 @@ input:hover {
 #ras {
     font-size: 20px;
     color: white;
-    text-shadow: 1px 1px 0px rgb(255,0,0)
-                 1.5px 1.5px 0px rgb(0,255,0)
-                 2px 2px 0px rgb(0,0,255);
+    text-shadow: 1px 1px 0px #ff0000,
+                 1.5px 1.5px 0px #00ff00,
+                 2px 2px 0px #0000ff;
 }
 
 #projects {
