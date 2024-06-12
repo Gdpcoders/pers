@@ -44,7 +44,7 @@ input[type="text"] {
 
 button {
     padding: 0.5em;
-    font-size: 10px;
+    font-size: 1em;
     background-color: rgb(0,90,0);
     color: white;
     border: 1px solid rgb(0,0,40);
