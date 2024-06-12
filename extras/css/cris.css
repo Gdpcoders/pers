@@ -29,6 +29,7 @@ header {
     text-shadow: 1px 1px 0px #ff0000,
                  1.5px 1.5px 0px #00ff00,
                  2px 2px 0px #0000ff;
+    margin-left: 20px;
     }
 
 #searchForm {
