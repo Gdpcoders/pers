@@ -17,6 +17,10 @@ header {
 
 }
 
+#pesquisa {
+    display: flex;
+}
+
 #logo {
     font-size: 10px;
     color: white;
@@ -24,10 +28,6 @@ header {
                  1.5px 1.5px 0px rgb(0,255,0)
                  2px 2px 0px rgb(0.0.255);
     justify-content: left;
-}
-#pesquisa {
-    display: flex;
-    justify-content: right;
 }
 
 #searchForm {
