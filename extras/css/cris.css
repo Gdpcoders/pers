@@ -21,33 +21,8 @@ header {
     display: flex;
     justify-content: right;
 }
-h1 {
-    display:flex;
-    justify-content: center;
-    color: white;
-    text-shadow: rgb(20, 0, 120);
-    
 
-}
-
-section {
-    margin-bottom: 0.5em;
-    padding: 1em;
-    border: 1px solid rgb(0,0,40);
-    background-color: rgb(0,0,40);
-    font-family: DinaRemasterII;
-}
-
-.test h2 {
-    border-bottom: 2px solid #000000;
-    padding-bottom: 0.5em;
-    color: white;
-    
-}
-h2 {
-    color: white;
-}
-form {
+#searchForm {
     display: flex;
     justify-content: center;
     width: 80%;
@@ -87,21 +62,46 @@ input:hover {
     
     color: rgba(255, 255,255, 0.5);
 }
+
+#projects {
+    margin-bottom: 0.5em;
+    padding: 1em;
+    border: 1px solid rgb(0,0,40);
+    background-color: rgb(0,0,40);
+    font-family: DinaRemasterII;
+}
+
+#t1{
+    font-family: 'DinaRemasterII', sans-serif;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+    color: white;
+    text-shadow: rgb(20, 0, 120);
+    
+
+}
+
+.test h2 {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 0.5em;
+    color: white;
+    
+}
+
 ul {
     list-style-type: none;
     padding: 0;
 }
 
-li {
-    background-color: #191970;
-    margin: 0.5em 0;
-    padding: 0.5em;
-    border: 1px solid rgb(0,0,40);
-}
-h2 #ras {
-    color: red;
-}
-
-#t1{
-    font-family: 'DinaRemasterII', sans-serif;
+footer {
+    background-color: rgba(76, 80, 150, 0.1);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
