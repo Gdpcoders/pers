@@ -36,6 +36,7 @@ header {
     max-width: 300px;
     display: flex;
     align-items: center;
+    margin-right: 1em;
 
 }
 
