@@ -108,7 +108,7 @@ ul {
     padding: 0;
 }
 
-#imgs {
+.imgs {
     width:200px;
     align-items: space-between;
     border: 4px;
