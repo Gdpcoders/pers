@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'DinaRemasterII';
-    src: url('fonts/DinaRemasterII.woff') format('woff2'),
-    url('fonts/DinaRemasterII.woff2') format('woff');
+    src: url('fonts/DinaRemasterII.woff') format('woff'),
+    url('fonts/DinaRemasterII.woff2') format('woff2');
 }
 
 body {

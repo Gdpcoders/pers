@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: darkblue;
-    background-image: url("/fundo_code.png");
+    background-image: url("img/fundo_code.jpg");
     background-size: cover;
 }
 
