@@ -116,7 +116,9 @@ ul {
 
 #imgs {
     width:200px;
-    align-items: space between;
+    align-items: space-between;
+    border: 1px;
+    border-color: green;
 }
 
 footer {
