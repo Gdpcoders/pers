@@ -71,9 +71,14 @@ input:hover {
     color: rgba(255, 255,255, 0.5);
 }
 
-#ras {
-    margin-bottom: 1em 0;
+#has {
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 0px rgb(255,0,0)
+                 1.5px 1.5px 0px rgb(0,255,0)
+                 2px 2px 0px rgb(0,0,255);
 }
+
 #projects {
     margin-bottom: 0.5em;
     padding: 1em;
