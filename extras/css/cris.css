@@ -63,12 +63,16 @@ input:hover {
     color: rgba(255, 255,255, 0.5);
 }
 
+#ras {
+    margin-bottom: 1em 0;
+}
 #projects {
     margin-bottom: 0.5em;
     padding: 1em;
     border: 1px solid rgb(0,0,40);
     background-color: rgb(0,0,40);
     font-family: DinaRemasterII;
+    color: white;
 }
 
 #t1{
