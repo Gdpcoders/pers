@@ -19,20 +19,20 @@ header {
 
 #pesquisa {
     display: flex;
-}
+    justify-content: space-between;
+    }
 
 #logo {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     text-shadow: 1px 1px 0px #ff0000,
                  1.5px 1.5px 0px #00ff00,
                  2px 2px 0px #0000ff;
-    justify-content: left;
-}
+    }
 
 #searchForm {
     width: 80%;
-    max-width: 400px;
+    max-width: 300px;
 
 }
 
@@ -41,7 +41,6 @@ input[type="text"] {
     font-size: 1em;
     border: 1px solid rgb(0,0,40);
     border-radius: 40px;
-    justify-content: right;
     margin-right: 0.5em;
     background-color: black;
     color: white;
@@ -56,7 +55,6 @@ button {
     border: 1px solid rgb(0,0,40);
     border-radius: 40px;
     cursor: pointer;
-    justify-content: right;
 
 }
 
@@ -110,7 +108,7 @@ ul {
 
 .imgs {
     width:200px;
-    align-items: space-between;
+    justify-content: space-between;
     border: 4px;
     border-color: green;
 }
