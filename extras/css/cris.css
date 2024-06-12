@@ -49,6 +49,7 @@ input[type="text"] {
     margin-right: 0.5em;
     background-color: black;
     color: white;
+    margin-right: 90px;
 
 }
 
@@ -60,7 +61,8 @@ button {
     border: 1px solid rgb(0,0,40);
     border-radius: 40px;
     cursor: pointer;
-    transition: background-color 0.3s
+    transition: background-color 0.3s;
+    margin-right: 90px;
 
 }
 
