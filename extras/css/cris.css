@@ -110,6 +110,7 @@ ul {
 
 #imgs {
     width:200px;
+    align-items: space between;
 }
 
 footer {
