@@ -109,8 +109,10 @@ ul {
 }
 
 .imgs {
-    width:200px;
     justify-content: space-between;
+}
+#imgs {
+    width: 200px;
     border: 4px;
     border-color: green;
 }
