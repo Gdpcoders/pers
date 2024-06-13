@@ -25,12 +25,6 @@ header {
 
 }
 
-#pesquisa {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
-
 #logo {
     text-shadow: 1px 1px 0px #ff0000,
                  1.5px 1.5px 0px #00ff00,
@@ -47,8 +41,6 @@ header {
 #searchForm {
     width: 80%;
     max-width: 300px;
-    display: flex;
-    align-items: center;
     margin-right: 90px;
 
 }
@@ -102,7 +94,7 @@ input:hover {
     color: white;
 }
 
-#t1{
+#t1 {
     font-family: 'DinaRemasterII', sans-serif;
     text-transform: capitalize;
 }
