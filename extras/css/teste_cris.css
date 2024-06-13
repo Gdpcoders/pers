@@ -3,17 +3,15 @@ header {
     display: flex;
     justify-content: center;
     border: none;
-    width: 80%;
-    max-width: 300;
-    background-size: cover;
+        background-size: cover;
 }
 
 #fundo {
-    width: 50%;
+    width: 30%;
     max-width: 100pc;
     
 }
-#ccards {
+#cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
