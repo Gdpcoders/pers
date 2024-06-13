@@ -21,10 +21,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 
+#linkbar {
+    color: white;
+}
 #logo {
     text-shadow: 1px 1px 0px #ff0000,
                  1.5px 1.5px 0px #00ff00,
