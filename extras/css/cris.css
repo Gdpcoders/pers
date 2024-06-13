@@ -62,7 +62,7 @@ button {
     border-radius: 40px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-right: 200px;
+    margin-right: 250px;
 
 }
 
@@ -103,7 +103,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 1em;
+    margin: 30px;
+
 }
 #imgs {
     width: 200px;
