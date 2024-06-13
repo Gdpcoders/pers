@@ -3,12 +3,13 @@ header {
     display: flex;
     justify-content: center;
     border: none;
-        background-size: cover;
+    background-size: cover;
+    margin: 0;
 }
 
 #fundo {
-    width: 30%;
-    max-width: 100pc;
+    width: 35%;
+    max-width: 80px;
     
 }
 #cards {
