@@ -2,6 +2,7 @@ header {
     background-image: url('../img/fundo_code.jpg');
     display: flex;
     justify-content: center;
+    border: none;
 }
 
 #fundo {
