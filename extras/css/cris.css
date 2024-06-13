@@ -23,6 +23,15 @@ header {
     align-items: center;
 }
 
+#logo {
+    text-shadow: 1px 1px 0px #ff0000,
+                 1.5px 1.5px 0px #00ff00,
+                 2px 2px 0px #0000ff;
+    margin-left: 60px;
+    width: 35%;
+    max-width: 40px;
+}
+
 #linkbar {
     color: white;
     display: flex;
@@ -32,14 +41,7 @@ header {
 li {
     color: white;
 }
-#logo {
-    text-shadow: 1px 1px 0px #ff0000,
-                 1.5px 1.5px 0px #00ff00,
-                 2px 2px 0px #0000ff;
-    margin-left: 60px;
-    width: 35%;
-    max-width: 40px;
-    }
+
 #space {
     color: white;
     font-size: 21px;
