@@ -49,7 +49,7 @@ input[type="text"] {
     margin-right: 0.5em;
     background-color: black;
     color: white;
-    margin-right: 90px;
+    margin-right: 60px;
 
 }
 
@@ -92,22 +92,6 @@ input:hover {
 
 #t1{
     font-family: 'DinaRemasterII', sans-serif;
-}
-
-h1 {
-    display:flex;
-    justify-content: center;
-    color: white;
-    text-shadow: rgb(20, 0, 120);
-    
-
-}
-
-.test h2 {
-    border-bottom: 2px solid #000000;
-    padding-bottom: 0.5em;
-    color: white;
-    
 }
 
 ul {
