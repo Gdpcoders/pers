@@ -5,6 +5,7 @@ header {
     border: none;
     width: 80%;
     max-width: 300;
+    background-size: cover;
 }
 
 #fundo {
