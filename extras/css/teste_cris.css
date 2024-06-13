@@ -1,0 +1,25 @@
+header {
+    background-image: url('../img/fundo_code.jpg');
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-size: cover;
+    margin: 0;
+}
+
+#fundo {
+    width: 35%;
+    max-width: 80px;
+    
+}
+#cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px;
+    margin-bottom: 2em;
+
+}
+body {
+    background-color: rgb(100,100,100);
+}

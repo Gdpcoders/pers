@@ -2,7 +2,7 @@
 
 /* Targeting the boddy element */
 @font-face {
-    font-family: 'DinaRemasterII', Arial;
+    font-family: 'DinaRemasterII';
     src: url('../../pers/css/fonts/DinaRemasterII.woff2') format('woff2'),
          url('../../pers/css/fonts/DinaRemasterII.woff') format('woff');
 }
@@ -15,14 +15,15 @@ body {
 /* Targeting headings */
 h1 {
     text-align: center;
-    color: rgb(252, 4, 4);
-    font-family: 'DinaRemasterII', sans-serif;
+    color: rgb(153, 252, 4);
+    font-family: 'DinaRemasterII';
 
 }
 
 /* Targeting paragraphs */
 p {
-    font-family: 'DinaRemasterII', sans-serif;
+    font-family: 'DinaRemasterII';
+
     color: rgb(153, 252, 4);
     text-align: center;
     font-size: large;
@@ -38,6 +39,6 @@ a {
     bottom: 0;
     width: 100%;
     color: rgb(153, 252, 4);
-    font-family: 'DinaRemasterII', sans-serif;
+    font-family: 'DinaRemasterII';
     font-size: large;
 }
