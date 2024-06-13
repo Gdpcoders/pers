@@ -25,6 +25,10 @@ header {
 
 #linkbar {
     color: white;
+    align-items: center;
+}
+li {
+    color: white;
 }
 #logo {
     text-shadow: 1px 1px 0px #ff0000,
@@ -44,6 +48,7 @@ header {
     max-width: 300px;
     margin-right: 90px;
     display: flex;
+    align-items: center;
 
 }
 
