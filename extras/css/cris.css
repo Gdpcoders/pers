@@ -14,7 +14,6 @@ header {
     text-align: center;
     padding: 0.5em 0;
     text-transform: uppercase;
-
 }
 
 .navbar {
@@ -30,6 +29,7 @@ header {
     margin-left: 60px;
     width: 35%;
     max-width: 40px;
+    filter: drop-shadow(purple)
 }
 
 #linkbar {
