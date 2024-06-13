@@ -25,6 +25,7 @@ header {
 
 #linkbar {
     color: white;
+    display: flex;
     align-items: center;
 }
 li {
