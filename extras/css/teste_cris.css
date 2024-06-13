@@ -3,6 +3,8 @@ header {
     display: flex;
     justify-content: center;
     border: none;
+    width: 80%;
+    max-width: 300;
 }
 
 #fundo {
