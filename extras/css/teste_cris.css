@@ -1,10 +1,11 @@
 header {
     background-image: url('../img/fundo_code.jpg');
+    display: flex;
     justify-content: center;
 }
 
 #fundo {
     width: 80%;
-    max-width: 400pc;
+    max-width: 100pc;
     
 }
