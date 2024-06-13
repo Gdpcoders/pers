@@ -92,6 +92,7 @@ input:hover {
 
 #t1{
     font-family: 'DinaRemasterII', sans-serif;
+    text-transform: capitalize;
 }
 
 ul {
@@ -112,6 +113,12 @@ ul {
     border-color: green;
 }
 
+#pro {
+    font-family: 'DinaRemasterII';
+    font-size: 17px;
+    color: white;
+    text-transform: capitalize;
+}
 footer {
     background-color: rgba(76, 80, 150, 0.3);
     color: white;
