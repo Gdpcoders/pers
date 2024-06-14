@@ -26,19 +26,17 @@ header {
 }
 
 #logo {
-        margin-left: 60px;
+    margin-left: 60px;
     width: 35%;
     max-width: 40px;
-    filter: 1px 1px 0px drop-shadow(purple)
+
 }
 
 .shadow {
-    
+    filter: drop-shadow(5px 5px 10px purple);
     animation: pulse 3s ease-in-out infinite;
 }
-.shadow {
-    filter: drop-shadow(5px 5px 10px purple);
-}
+
 
 
 #linkbar {
