@@ -48,6 +48,10 @@ li {
     color: white;
 }
 
+a {
+    color: purple;
+}
+
 #space {
     color: white;
     font-size: 21px;
