@@ -39,20 +39,16 @@ header {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-ul {
     gap: 2em;
-}
-li {
-    color: white;
 }
 
 a {
     color: purple;
 }
 
+a:hover{
+    color: rgb(30,30,50);
+}
 #space {
     color: white;
     font-size: 21px;
