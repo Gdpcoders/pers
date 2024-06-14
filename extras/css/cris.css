@@ -127,7 +127,8 @@ ul {
 
 .imgs {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 3em;
     align-items: center;
     margin: 30px;
 
