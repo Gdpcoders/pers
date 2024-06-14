@@ -64,6 +64,8 @@ a:hover{
     margin-right: 90px;
     display: flex;
     align-items: center;
+    gap: 2em;
+
 
 }
 
@@ -75,7 +77,7 @@ input[type="text"] {
     margin-right: 0.5em;
     background-color: black;
     color: white;
-    margin-right: 30px;
+
 
 }
 
@@ -88,7 +90,7 @@ button {
     border-radius: 40px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-right: 250px;
+testee 
 
 }
 
