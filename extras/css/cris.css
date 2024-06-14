@@ -144,6 +144,13 @@ ul {
     color: white;
     text-transform: capitalize;
 }
+
+#desc {
+    display: flex;
+    justify-content: left;
+    gap: 3em;
+    color: white;
+}
 footer {
     background-color: rgba(76, 80, 150, 0.3);
     color: white;
