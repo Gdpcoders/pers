@@ -33,7 +33,7 @@ header {
 }
 
 .shadow {
-    filter: drop-shadow(10px, 10px, 10px red);
+    filter: drop-shadow(10px, 10px, 0px red);
 }
 
 #linkbar {
