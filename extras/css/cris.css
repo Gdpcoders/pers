@@ -149,7 +149,7 @@ ul {
 
 #desc {
     display: flex;
-    justify-content: left;
+
     align-items: center;
     gap: 3em;
     color: white;
