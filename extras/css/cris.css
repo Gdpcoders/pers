@@ -33,9 +33,13 @@ header {
 }
 
 .shadow {
-    filter: drop-shadow(10px, 10px, 0px red);
+    
     animation: pulse 3s ease-in-out infinite;
 }
+.shadow {
+    filter: drop-shadow(5px 5px 10px purple);
+}
+
 
 #linkbar {
     color: white;
@@ -148,8 +152,10 @@ ul {
 #desc {
     display: flex;
     justify-content: left;
+    align-items: center;
     gap: 3em;
     color: white;
+    font-size: 30px;
 }
 footer {
     background-color: rgba(76, 80, 150, 0.3);
