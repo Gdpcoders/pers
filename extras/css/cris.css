@@ -129,7 +129,7 @@ ul {
 .imgs {
     display: flex;
     justify-content: center;
-    gap: 3em;
+    gap: 1em;
     align-items: center;
     margin: 30px;
 
