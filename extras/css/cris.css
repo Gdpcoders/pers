@@ -33,7 +33,7 @@ header {
 }
 
 .shadow {
-    filter: drop-shadow(5px 5px 10px purple);
+    filter: drop-shadow(10px 10px 10px purple);
     animation: pulse 6s ease-in-out infinite;
 }
 

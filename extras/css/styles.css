@@ -76,7 +76,7 @@ button {
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-    transition: background-color 0.3s;
+    animation: pulse 6s ease-in-out infinite;
 }
 button:hover {
     background-color: rgb(80, 150,80);
