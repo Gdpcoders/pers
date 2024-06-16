@@ -106,7 +106,12 @@ input:hover {
     display: flex;
     justify-content: center;
     gap: 2em;
+    border: 4px solid white;
 
+}
+
+#se {
+    color: white;
 }
 
 #card_1 { 
