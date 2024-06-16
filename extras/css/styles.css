@@ -66,7 +66,17 @@ button {
 }
 
 .button {
-    animation: pulse 6s ease-in-out infinite;
+    display: inline-block;
+    border: 2px solid green;
+    background-color: rgb(0,90,0);
+    color: white;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
 }
 button:hover {
     background-color: rgb(80, 150,80);
