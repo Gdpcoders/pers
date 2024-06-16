@@ -28,7 +28,7 @@ header {
 #logo {
     margin-left: 60px;
     width: 35%;
-    max-width: 40px;
+    max-width: 60px;
 
 }
 
@@ -101,6 +101,19 @@ input:hover {
     padding: 30px;
 }
 
+#cards {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+#card_1 { 
+    border: 2px solid darkblue;
+    font-size: 16px;
+}
+
 #projects {
     margin-bottom: 0.5em;
     padding: 1em;
@@ -143,10 +156,16 @@ ul {
 
 #desc {
     display: flex;
-    justify-content: center;
+
     gap: 3em;
     color: white;
     font-size: 30px;
+}
+
+#prolink {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
 }
 
 footer {
