@@ -91,7 +91,7 @@ button:hover {
     border-radius: 40px;
 }
 
-input:hover {
+input[type="text"]:hover {
     color: rgba(255, 255,255, 0.5);
 }
 
