@@ -35,12 +35,15 @@ h2 {
 ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    gap: 4em;
+    justify-content: center;
 }
 
 li {
     background-color: rgba(0,130,80,0.6);
     margin: 0.5em 0;
-    padding: 0.5em;
+    padding: 4em;
     border: 1px solid #ddd;
     border-radius: 40px;
 }
