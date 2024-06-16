@@ -34,7 +34,7 @@ header {
 
 .shadow {
     filter: drop-shadow(5px 5px 10px purple);
-    animation: pulse 3s ease-in-out infinite;
+    animation: pulse 6s ease-in-out infinite;
 }
 
 
@@ -53,11 +53,7 @@ a {
 a:hover{
     color: rgb(30,30,50);
 }
-#space {
-    color: white;
-    font-size: 21px;
-    
-}
+
 #searchForm {
     width: 80%;
     max-width: 300px;
@@ -65,8 +61,6 @@ a:hover{
     display: flex;
     align-items: center;
     gap: 0.5em;
-
-
 }
 
 input[type="text"] {
@@ -92,16 +86,12 @@ button {
     transition: background-color 0.3s;
 }
 
-
-
-
 button:hover {
     background-color: rgb(0,0,60);
     border-radius: 40px;
 }
 
 input:hover {
-    
     color: rgba(255, 255,255, 0.5);
 }
 
@@ -153,12 +143,12 @@ ul {
 
 #desc {
     display: flex;
-
-    align-items: center;
+    justify-content: center;
     gap: 3em;
     color: white;
     font-size: 30px;
 }
+
 footer {
     background-color: rgba(76, 80, 150, 0.3);
     color: white;
@@ -174,7 +164,7 @@ footer {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1);
+        transform: scale(1.6);
     }
     100% {
         transform: scale(1);
