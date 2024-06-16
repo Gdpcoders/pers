@@ -184,7 +184,6 @@ ul {
 
 #desc {
     display: flex;
-
     gap: 3em;
     color: white;
     font-size: 30px;
@@ -194,6 +193,7 @@ ul {
     display: flex;
     gap: 3em;
     justify-content: center;
+    left: 20px;
 }
 
 footer {
