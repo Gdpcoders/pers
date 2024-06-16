@@ -105,11 +105,12 @@ input[type="text"]:hover {
     display: flex;
     justify-content: center;
 }
+
 #cards {
     background-color: black;
     display: flex;
     gap: 2em;
-    border: 4px solid white;
+    border: 4px solid black;
     padding: 50px;
     width: 60%;
 }
@@ -143,6 +144,7 @@ input[type="text"]:hover {
 }
 
 #projects {
+    margin-top: 1em;
     margin-bottom: 0.5em;
     padding: 1em;
     border: 1px solid rgb(0,0,40);

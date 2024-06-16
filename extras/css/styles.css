@@ -31,7 +31,7 @@ ul {
     padding: 0;
     display: flex;
     gap: 0.5em;
-    justify-content: center;
+    justify-content: left;
     left: 60px;
 }
 
@@ -65,7 +65,7 @@ button {
     transition: background-color 0.3s;
 }
 
-.shadow {
+.botton {
     animation: pulse 6s ease-in-out infinite;
 }
 button:hover {
@@ -87,7 +87,7 @@ footer {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.6);
+        transform: scale(1.2);
     }
     100% {
         transform: scale(1);
