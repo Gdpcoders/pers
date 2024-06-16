@@ -65,7 +65,7 @@ button {
     transition: background-color 0.3s;
 }
 
-.botton {
+.button {
     animation: pulse 6s ease-in-out infinite;
 }
 button:hover {
