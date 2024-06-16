@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'DinaRemasterII';
+    src: url('../fonts/DinaRemasterII.woff') format('woff'),
+    url('../fonts/DinaRemasterII.woff2') format('woff2');
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +14,8 @@ body {
 
 header {
     background-color: rgba(100,100,100, 0.6);
-    color: black;
+    color: white;
+    font-family: DinaRemasterII;
     text-align: center;
     padding: 0.5em 0;
     text-transform: uppercase;
