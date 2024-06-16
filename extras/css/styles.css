@@ -58,7 +58,7 @@ li:hover {
     display: flex;
     justify-content: center;
     gap: 2em;
-    
+    left: 90px;
 }
 
 button {
