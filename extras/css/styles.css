@@ -24,6 +24,7 @@ main {
     margin-bottom: 2em;
     border-radius: 40px;
     max-width: 200px;
+    
 }
 
 h2 {
@@ -38,11 +39,11 @@ ul {
     display: flex;
     gap: 0.5em;
     justify-content: center;
+    left: auto;
 }
 
 li {
     background-color: rgba(0,130,80,0.6);
-    margin: 0.5em 0;
     padding: 4em;
     border: 1px solid #ddd;
     border-radius: 40px;
