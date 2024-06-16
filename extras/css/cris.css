@@ -101,6 +101,10 @@ input[type="text"]:hover {
     padding: 30px;
 }
 
+#about {
+    display: flex;
+    justify-content: center;
+}
 #cards {
     background-color: black;
     display: flex;
