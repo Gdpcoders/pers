@@ -209,17 +209,10 @@ ul {
 
 #desc {
     display: flex;
-    gap: 4em;
+    gap: 6em;
     color: white;
-    font-size: 27px;
+    font-size: 25px;
     margin-left: 80px;
-}
-
-#prolink {
-    display: flex;
-    gap: 3em;
-    justify-content: center;
-    left: 20px;
 }
 
 footer {
