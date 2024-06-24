@@ -100,6 +100,12 @@ input[type="text"]:hover {
     padding: 30px;
 }
 
+#about {
+    display: flex;
+    justify-content: center;
+    right: 80px;
+}
+
 #cards {
     right: 70px;
     background-color: black;
