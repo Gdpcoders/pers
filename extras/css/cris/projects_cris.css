@@ -6,7 +6,7 @@ header {
     display: flex;
     padding: 70px;
     justify-content: space-between;
-    background-color: rgb(80,80,150);
+    background-color: rgb();
 }
 
 #logo {
