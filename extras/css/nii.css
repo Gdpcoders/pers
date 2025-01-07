@@ -41,29 +41,39 @@ p {
     width: 100%;
     color: rgb(153, 252, 4);
     font-family: 'DinaRemasterII';
-    font-size: 18px;
+    font-size: 24px;
 }
 
 
 
 .planos{
-    position: relative;
-    bottom: 200px;
-    right: 100px;
+    position: absolute;
+    top: 180px;
+    left: 40px;
     color: rgb(153, 252, 4);
     font-family: 'DinaRemasterII';
     font-size: 24px;
-    
 
 }
 
-.ideias {
+.ideias{
+    position: absolute;
+    top: 240px;
+    left: 40px;
+    color: rgb(153, 252, 4);
+    font-family: 'DinaRemasterII';
+    font-size: 24px;
 
+}
+
+.documentação {
+    position: absolute;
+    top: 300px;
+    left: 40px;
     color: rgb(153, 252, 4);
     font-family: 'DinaRemasterII';
     font-size: 24px;
 }
-
 
 button {
     height: 40px;
@@ -79,12 +89,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.documentação {
-    color: rgb(153, 252, 4);
-    font-family: 'DinaRemasterII';
-    font-size: 24px;
 }
 
 hr {
