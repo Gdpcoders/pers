@@ -75,6 +75,15 @@ p {
     font-size: 24px;
 }
 
+.voltar {
+    position: absolute;
+    bottom: 300px;
+    left: 40px;
+    color: rgb(153, 252, 4);
+    font-family: 'DinaRemasterII';
+    font-size: 24px;
+}
+
 button {
     height: 40px;
     width: 60px;
