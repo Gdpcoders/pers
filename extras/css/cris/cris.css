@@ -13,6 +13,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 0.3em 1em 0.3em 1em;
+    margin-bottom: 20px;
   }
   
   .navbar img {
@@ -36,7 +37,8 @@ body {
   }
   
   a:hover {
-    color: lightgray; /* Altera a cor quando o mouse passa por cima */
+    color: lightblue; /* Ou outra cor que combine */
+    text-decoration: underline; /* Altera a cor quando o mouse passa por cima */
   }
   
   a:visited {
@@ -91,7 +93,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: calc(1rem + 0.5vw);
     font-weight: bold;
     text-align: center;
   }
@@ -121,3 +123,10 @@ body {
     background-color: #000000; /* Preto Next.js */
     color: white; /* Contraste com fundo preto */
   }
+
+  @media (max-width: 768px) {
+    .codes {
+      grid-template-columns: repeat(2, 1fr); /* Muda para duas colunas */
+    }
+  }
+  
