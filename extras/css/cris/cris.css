@@ -1,239 +1,123 @@
-@font-face {
-    font-family: 'DinaRemasterII';
-    src: url('../fonts/DinaRemasterII.woff') format('woff'),
-    url('../fonts/DinaRemasterII.woff2') format('woff2');
-}
-
 body {
-    background-color: black;
-    border: 0;
+    background: linear-gradient(180deg, #0A0A96, #1E1E2C);
     margin: 0;
-}
-
-header {
-    background-color: rgb(0,0,40);
-    color: #ffffff;
-    text-align: center;
-    padding: 0.5em 0;
-    text-transform: uppercase;
-    width: vw15;
-}
-
-.navbar {
+  }
+  
+  /* inicio do site e navbar */
+  
+  .navbar {
+    background-color: rgb(10, 10, 150);
+    width: 100vw;
+    height: 7vh;
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    padding: 0.3em 1em 0.3em 1em;
+  }
+  
+  .navbar img {
+    max-width: 60px; /* Mantém um tamanho fixo */
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  #list {
+    color: white;
+    width: 20vw;
+    display: flex;
     justify-content: space-between;
-}
-
-#logo {
-    margin-left: 60px;
-    width: 35%;
-    max-width: 60px;
-    border-radius: 59px;
-
-}
-
-.shadow {
-    filter: drop-shadow(10px 10px 10px purple);
-    animation: pulse 6s ease-in-out infinite;
-}
-
-#linkbar {
-    color: white;
-    display: flex;
-    align-items: center;
-    gap: 2em;
-}
-
-a {
-    color: purple;
-}
-
-a:hover{
-    color: rgb(30,30,50);
-}
-
-#searchForm {
-    width: 80%;
-    max-width: 300px;
-    margin-right: 90px;
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-}
-
-input[type="text"] {
-    padding: 0.5em;
-    font-size: 1em;
-    border: 1px solid rgb(0,0,40);
+    list-style: none;
+    gap: 1em;
+  }
+  
+  a {
+    color: white; /* Define a cor branca para os links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+  }
+  
+  a:hover {
+    color: lightgray; /* Altera a cor quando o mouse passa por cima */
+  }
+  
+  a:visited {
+    color: white; /* Define a cor branca para links já visitados */
+  }
+  
+  
+  #searchForm input {
+    width: 10vw;
     border-radius: 40px;
-    margin-right: 0.5em;
     background-color: black;
+    border: none;
+    padding: 3px;
+    font-size: 14px;
     color: white;
-
-
-}
-
-button {
-    padding: 0.5em;
-    font-size: 1em;
-    background-color: rgb(0,90,0);
-    color: white;
-    border: 1px solid rgb(0,0,40);
+  }
+  
+  #searchForm button {
+    width: 7vw;
+    height: 6vh;
     border-radius: 40px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: rgb(0,0,60);
-    border-radius: 40px;
-}
-
-input[type="text"]:hover {
-    color: rgba(255, 255,255, 0.5);
-}
-
-#ras {
-    font-size: 20px;
-    color: white;
-    padding: 30px;
-}
-
-#about {
-    display: flex;
-    justify-content: center;
-    right: 80px;
-}
-
-#cards {
-    right: 70px;
     background-color: black;
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-    border: 4px solid black;
-    padding: 50px;
-    width: 60%;
-}
-
-#se {
+    border: none;
+    font-size:  14px;
     color: white;
-}
-#card_1, #card_2, #card_3 {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-    padding: 110px;
-    border-radius: 30px;
-    margin: 0.5em;
-}
-#card_1 h1, #card_2 h1, #card_3 h1 {
-	margin-bottom: 30px;
-}
-
-#card_1, #card_2, #card_3 {
-	color: white;
-}
-
-#card_1 { 
-	border: 4px solid darkblue;
-}
-
-#card_1:hover {
-	background-color: rgba(0,0,200,0.7);
-}
-
-#card_2 { 
-    border: 4px solid darkred;
-}
-
-#card_2:hover {
-	background-color: rgba(70,0,0,0.7);
-}
-
-#card_3 { 
-    border: 4px solid blue;
-}
-
-#card_3:hover {
-	background-color: rgba(0,0,90,0.7);
-}
-
-#projects {
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    padding: 1em;
-    border: 1px solid rgb(0,0,40);
-    background-color: rgb(0,0,40);
-    font-family: DinaRemasterII;
-    color: white;
-}
-
-#t1 {
-    font-family: 'DinaRemasterII', sans-serif;
-    text-transform: capitalize;
-}
-
-#anime {
-	display: flex;
-	flex-direction: column;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.imgs {
+  }
+  
+  /* coeco de projetos */
+  .sep {
+    margin-top: 100px;
     display: flex;
-    justify-content: left;
-    gap: 1.5em;
     align-items: center;
-    margin-left: 30px;
-    margin-top: 15px;
-
-}
-#imgs {
-    width: 200px;
-    border: 4px;
-    border-color: green;
-}
-
-#pro {
-    font-family: 'DinaRemasterII';
-    font-size: 17px;
-    color: white;
-    text-transform: capitalize;
-}
-
-#desc {
-    display: flex;
-    gap: 6em;
-    color: white;
-    font-size: 25px;
-    margin-left: 80px;
-}
-
-footer {
-    background-color: rgba(76, 80, 150, 0.3);
-    color: white;
-    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+  }
+  
+  .codes {
+    width: 60vw;
+    height: 45vh;
+    display: grid; /* Ativa o Grid Layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+    grid-template-rows: repeat(2, 1fr); /* 2 linhas de tamanho igual */
+    gap: 10px; /* Espaçamento entre os itens */
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 13px;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.6);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
+  }
+  
+  .langs {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #py {
+    background-color: #306998; /* Azul Python */
+  }
+  
+  #htmlcs {
+    background-color: #E34F26; /* Laranja HTML */
+  }
+  
+  #js {
+    background-color: #F7DF1E; /* Amarelo JavaScript */
+    color: black; /* Contraste melhor com o fundo amarelo */
+  }
+  
+  #c {
+    background-color: #68217A; /* Roxo C# */
+  }
+  
+  #ko {
+    background-color: #0095D5; /* Azul Kotlin */
+  }
+  
+  #next {
+    background-color: #000000; /* Preto Next.js */
+    color: white; /* Contraste com fundo preto */
+  }
