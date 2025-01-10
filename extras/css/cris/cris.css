@@ -57,6 +57,7 @@ a:visited {
 
 #searchForm input {
   width: 10vw;
+  height: 1.8vh;
   border-radius: 40px;
   background-color: black;
   border: none;
@@ -66,8 +67,8 @@ a:visited {
 }
 
 #searchForm button {
-  width: 4vw;
-  height: 2vh;
+  width: 10vw;
+  height: 1.8vh;
   border-radius: 40px;
   background-color: black;
   border: none;
