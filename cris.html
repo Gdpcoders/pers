@@ -10,19 +10,35 @@
     </head>
     <body>
       <div  class="navbar">
-        <img id="logo" src="/extras/code_logo.png"  class="shadow">
+        <img id="logo" src="/extras/logo_home_cris.png"  class="shadow">
         <ul id="list">
           <li><a href="index.html">Home</a></li>
           <li><a href="extras/html/cris/about_cris.html">About</a></li>
           <li><a href="extras/html/cris/projects_cris.html">Projects</a></li>
           <li><a href="extras/html/cris/contact_cris.html">contact</a></li>
         </ul>
-        <form id="searchForm">
-                    <input type="text" id="searchInput" placeholder="Digite sua pesquisa...">
-                    <button type="submit">Pesquisar</button>
-        </form>
+        <div class="for">
+          <form id="searchForm">
+                  <input type="text" id="searchInput" placeholder="Digite sua pesquisa...">
+                  <button type="submit">Pesquisar</button>
+          </form>
+          <button id="menuButton" aria-label="Abrir menu">
+          &#9776; <!-- Ícone de 3 riscos -->
+          </button>
+        </div>
+        
+        
         
       </div>
+      <div id="sidePanel">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="extras/html/cris/about_cris.html">About</a></li>
+          <li><a href="extras/html/cris/projects_cris.html">Projects</a></li>
+          <li><a href="extras/html/cris/contact_cris.html">contact</a></li>
+        </ul>
+      </div>
+      
       <div class= "sep">
         <div class="codes">
           <div class="langs" id="py" >Python</div>
@@ -35,8 +51,27 @@
         
       </div>
       
-    </body>
-  
 
+      <script>
+        const menuButton = document.getElementById('menuButton');
+        const sidePanel = document.getElementById('sidePanel');
+      
+        menuButton.addEventListener('click', () => {
+          sidePanel.classList.toggle('active');
+        });
+      
+        // Fecha o painel se o usuário clicar fora dele
+        document.addEventListener('click', (event) => {
+          if (!sidePanel.contains(event.target) && event.target !== menuButton) {
+            sidePanel.classList.remove('active');
+          }
+        });
+      </script>
+      
+      <footer id="footer">
+        <p>© 2025 gdpcoders. Todos os direitos reservados.</p>
+      </footer>
+
+    </body>
   
 </html>

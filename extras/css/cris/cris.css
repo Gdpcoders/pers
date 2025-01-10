@@ -1,132 +1,228 @@
 body {
-    background: linear-gradient(180deg, #0A0A96, #1E1E2C);
-    margin: 0;
+  background: linear-gradient(180deg, #0A0A96, #1E1E2C);
+  margin: 0;
+}
+
+html, body {
+height: 100%;
+margin: 0;
+}
+
+/* inicio do site e navbar */
+
+.navbar {
+  background-color: rgb(10, 10, 150);
+  margin: 0;
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.3em 1em 0.3em 1em;
+  margin-bottom: 20px;
+}
+
+.navbar img {
+  max-width: 60px; /* Mantém um tamanho fixo */
+  border-radius: 50%;
+}
+
+#list {
+  color: white;
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1em;
+}
+
+a {
+  color: white; /* Define a cor branca para os links */
+  text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+a:hover {
+  color: lightblue; /* Ou outra cor que combine */
+  text-decoration: underline; /* Altera a cor quando o mouse passa por cima */
+}
+
+a:visited {
+  color: white; /* Define a cor branca para links já visitados */
+}
+
+.for {
+  display: flex;
+  gap: 0.5em;
+}
+
+#searchForm input {
+  width: 10vw;
+  border-radius: 40px;
+  background-color: black;
+  border: none;
+  padding: 3px;
+  font-size: 14px;
+  color: white;
+}
+
+#searchForm button {
+  width: 4vw;
+  height: 2vh;
+  border-radius: 40px;
+  background-color: black;
+  border: none;
+  font-size:  14px;
+  color: white;
+}
+/* menu botom */ 
+#menuButton {
+display: none;
+font-size: 24px;
+background: none;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+#sidePanel {
+position: fixed;
+top: 0;
+left: -100%; /* Esconde o painel fora da tela */
+display: flex;
+flex-direction: column;
+align-items: center;
+
+width: 30%;
+max-width: 300px;
+height: 100%;
+background-color: rgb(10, 10, 150);
+color: white;
+padding: 1em;
+transition: left 0.3s ease-in-out; /* Animação suave ao abrir/fechar */
+box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+z-index: 1000;
+}
+
+#sidePanel ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#sidePanel ul li {
+margin: 1em 0;
+}
+
+
+
+/* coeco de projetos */
+.sep {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+  flex: 1;
+}
+
+.codes {
+  width: 60vw;
+  height: 45vh;
+  display: grid; /* Ativa o Grid Layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+  grid-template-rows: repeat(2, 1fr); /* 2 linhas de tamanho igual */
+  gap: 10px; /* Espaçamento entre os itens */
+  padding: 10px;
+}
+
+.langs {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: calc(1rem + 0.5vw);
+  font-weight: bold;
+  text-align: center;
+  min-height: 160px;
+}
+
+#py {
+  background-color: #306998; /* Azul Python */
+}
+
+#htmlcs {
+  background-color: #E34F26; /* Laranja HTML */
+}
+
+#js {
+  background-color: #F7DF1E; /* Amarelo JavaScript */
+  color: black; /* Contraste melhor com o fundo amarelo */
+}
+
+#c {
+  background-color: #68217A; /* Roxo C# */
+}
+
+#ko {
+  background-color: #0095D5; /* Azul Kotlin */
+}
+
+#next {
+  background-color: #000000; /* Preto Next.js */
+  color: white; /* Contraste com fundo preto */
+}
+
+@media (max-width: 768px) {
+  .codes {
+    grid-template-columns: repeat(2, 1fr); /* Muda para duas colunas */
   }
   
-  /* inicio do site e navbar */
-  
+  .langs {
+    grid-auto-rows: minmax(160px, auto);
+  }
   .navbar {
-    background-color: rgb(10, 10, 150);
-    width: 100vw;
-    height: 7vh;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 0.3em 1em 0.3em 1em;
-    margin-bottom: 20px;
-  }
-  
-  .navbar img {
-    max-width: 60px; /* Mantém um tamanho fixo */
-    border-radius: 50%;
-    margin: 0 10px;
+    
   }
   
   #list {
-    color: white;
-    width: 20vw;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    gap: 1em;
+    display: none; /* Remove os links da navbar no celular */
   }
   
-  a {
-    color: white; /* Define a cor branca para os links */
-    text-decoration: none; /* Remove o sublinhado padrão */
-  }
-  
-  a:hover {
-    color: lightblue; /* Ou outra cor que combine */
-    text-decoration: underline; /* Altera a cor quando o mouse passa por cima */
-  }
-  
-  a:visited {
-    color: white; /* Define a cor branca para links já visitados */
+  #menuButton {
+    display: block;
   }
   
   
   #searchForm input {
-    width: 10vw;
-    border-radius: 40px;
-    background-color: black;
-    border: none;
-    padding: 3px;
-    font-size: 14px;
-    color: white;
+    height: 2vh;
+    width: 20vw;
   }
   
   #searchForm button {
-    width: 7vw;
-    height: 6vh;
-    border-radius: 40px;
-    background-color: black;
-    border: none;
-    font-size:  14px;
-    color: white;
+    height: 3vh;
+    width: 13vw;
   }
   
-  /* coeco de projetos */
-  .sep {
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 50vh;
-  }
-  
-  .codes {
-    width: 60vw;
-    height: 45vh;
-    display: grid; /* Ativa o Grid Layout */
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
-    grid-template-rows: repeat(2, 1fr); /* 2 linhas de tamanho igual */
-    gap: 10px; /* Espaçamento entre os itens */
-    padding: 10px;
-  }
-  
-  .langs {
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    font-size: calc(1rem + 0.5vw);
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  #py {
-    background-color: #306998; /* Azul Python */
-  }
-  
-  #htmlcs {
-    background-color: #E34F26; /* Laranja HTML */
-  }
-  
-  #js {
-    background-color: #F7DF1E; /* Amarelo JavaScript */
-    color: black; /* Contraste melhor com o fundo amarelo */
-  }
-  
-  #c {
-    background-color: #68217A; /* Roxo C# */
-  }
-  
-  #ko {
-    background-color: #0095D5; /* Azul Kotlin */
-  }
-  
-  #next {
-    background-color: #000000; /* Preto Next.js */
-    color: white; /* Contraste com fundo preto */
-  }
+}
 
-  @media (max-width: 768px) {
-    .codes {
-      grid-template-columns: repeat(2, 1fr); /* Muda para duas colunas */
-    }
-  }
-  
+
+/* Estilo quando o painel está ativo */
+#sidePanel.active {
+left: 0; /* Mostra o painel */
+}
+
+
+#footer {
+background-color: rgb(10, 10, 80); /* Azul escuro para combinar com a navbar */
+color: white;
+text-align: center;
+padding: 10px;
+position: fixed; /* Fica fixo no final do conteúdo */
+bottom: 0;
+width: 100%;
+}
