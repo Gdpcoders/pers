@@ -77,6 +77,12 @@
           if (!sidePanel.contains(event.target) && event.target !== menuButton) {
             sidePanel.classList.remove('active');
           }
+      
+          // Fecha o card se o usuário clicar fora dele
+          const activeCard = document.querySelector('.card.active');
+          if (activeCard && !activeCard.contains(event.target) && !event.target.classList.contains('langs')) {
+            activeCard.classList.remove('active');
+          }
         });
       
         // Função para abrir o card quando o ícone da linguagem for clicado
@@ -90,7 +96,7 @@
           const card = document.getElementById('card-' + language);
           card.classList.add('active');
         }
-      </script>
+      </script>      
       
       
       <footer id="footer">
