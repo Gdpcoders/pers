@@ -77,7 +77,7 @@ a:visited {
 }
 /* menu botom */ 
 #menuButton {
-display: none;
+/*display: none; */
 font-size: 24px;
 background: none;
 border: none;
