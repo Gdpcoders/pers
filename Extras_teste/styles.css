@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'DinaRemasterII';
+    src: url('../fonts/DinaRemasterII.woff') format('woff'),
+    url('../fonts/DinaRemasterII.woff2') format('woff2');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../img/fundo_code.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(100,100,100, 0.6);
+    color: white;
+    font-family: 'DinaRemasterII', sans-serif;
+    text-align: center;
+    padding: 0.5em 0;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+main {
+    padding: 1em;
+}
+
+h2 {
+    border-bottom: 2px solid rgb(90,90,90);
+    padding-bottom: 0.5em;
+    color: white;
+    max-width: 340px;
+}
+
+li:hover {
+  background-color: rbg(120,120,120);
+}
+
+#botom {
+    display: flex;
+    justify-content: left;
+    gap: 2em;
+}
+
+button {
+    border: 2px solid rgb(90,90,90);
+    background-color: rgb(65, 57, 57);
+    color: white;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid rgb(90,90,90);
+    background-color: rgb(65, 57, 57);
+    color: white;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    animation: pulse 6s ease-in-out infinite;
+}
+button:hover {
+    background-color: rgb(80, 150,80);
+}
+
+footer {
+    background-color: rgba(58, 54, 54, 0.1);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,43 @@
+estrutura atual:
+
+pasta principal (pers):
+    index.html (home do grupo)
+    cris
+    acce
+    nii
+    (paginas principais de cada um)
+    extras:
+        css:
+            acce:
+            cris:
+            nii:
+        html:
+            acce:
+            cris:
+            nii:
+        img:
+
+        doc:
+            cris: (por enquanto)
+
+
+        font:
+
+
+nova estrutura proposta:
+
+pasta principal (pers):
+    index.html (home do grupo)
+    cris
+    acce
+    nii
+    (paginas principais de cada um)
+    extras:
+        acce:
+        cris:
+        nii:
+        font:
+        logo_site.png
+        script.css (site principal)
+
+        (assim cada um separa a maneira que for melhor)
