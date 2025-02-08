@@ -64,20 +64,34 @@
       
 
       <script>
+        // Código do botão da navbar
         const menuButton = document.getElementById('menuButton');
         const sidePanel = document.getElementById('sidePanel');
-      
+        
         menuButton.addEventListener('click', () => {
           sidePanel.classList.toggle('active');
         });
-      
+        
         // Fecha o painel se o usuário clicar fora dele
         document.addEventListener('click', (event) => {
           if (!sidePanel.contains(event.target) && event.target !== menuButton) {
             sidePanel.classList.remove('active');
           }
         });
+      
+        // Função para abrir o card quando o ícone da linguagem for clicado
+        function showCard(language) {
+          // Esconde todos os cards antes de mostrar o do item clicado
+          document.querySelectorAll('.card').forEach(card => {
+            card.classList.remove('active');
+          });
+      
+          // Mostra o card correspondente à linguagem clicada
+          const card = document.getElementById('card-' + language);
+          card.classList.add('active');
+        }
       </script>
+      
       
       <footer id="footer">
         <p>© 2025 gdpcoders. Todos os direitos reservados.</p>
