@@ -154,28 +154,13 @@ margin: 1em 0;
   background-color: #306998; /* Azul Python */
 }
 
-#htmlcs {
-  background-color: #E34F26; /* Laranja HTML */
+#cmore {
+  background-color: #921a92; /* Laranja HTML */
 }
 
 #js {
-  background-color: #F7DF1E; /* Amarelo JavaScript */
-  color: black; /* Contraste melhor com o fundo amarelo */
+  background-color: #c0bd07;
 }
-
-#c {
-  background-color: #68217A; /* Roxo C# */
-}
-
-#ko {
-  background-color: #0095D5; /* Azul Kotlin */
-}
-
-#next {
-  background-color: #000000; /* Preto Next.js */
-  color: white; /* Contraste com fundo preto */
-}
-
 #footer {
   background-color: rgb(10, 10, 80); /* Azul escuro para combinar com a navbar */
   color: white;
