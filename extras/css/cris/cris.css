@@ -77,7 +77,7 @@ a:visited {
 }
 /* menu botom */ 
 #menuButton {
-/*display: none; */
+display: block;
 font-size: 24px;
 background: none;
 border: none;
@@ -233,3 +233,15 @@ i {
 #sidePanel.active {
 left: 0; /* Mostra o painel */
 }
+
+
+
+
+
+
+/*<ul id="list">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="extras/html/cris/about_cris.html">About</a></li>
+  <li><a href="extras/html/cris/projects_cris.html">Projects</a></li>
+  <li><a href="extras/html/cris/contact_cris.html">contact</a></li>
+</ul>/*
