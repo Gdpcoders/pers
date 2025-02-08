@@ -85,6 +85,7 @@ color: white;
 cursor: pointer;
 }
 
+
 #sidePanel {
 position: fixed;
 top: 0;
@@ -138,7 +139,6 @@ margin: 1em 0;
 }
 
 .langs {
-  background-color: white;
   color: black;
   display: flex;
   justify-content: center;
@@ -149,6 +149,10 @@ margin: 1em 0;
   font-weight: bold;
   text-align: center;
   min-height: 160px;
+}
+.langs i {
+  font-size: 50px; /* Tamanho dos ícones */
+  cursor: pointer;
 }
 
 #py {
@@ -182,6 +186,25 @@ i {
 .devicon-python-plain { color: #3776AB; }  /* Azul do Python */
 .devicon-cplusplus-plain { color: #00599C; } /* Azul escuro do C++ */
 .devicon-javascript-plain { color: #F7DF1E; } /* Amarelo do JS */
+
+.card {
+  display: none; /* Esconde o card inicialmente */
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.langs:hover i {
+  opacity: 0.8; /* Um efeito sutil ao passar o mouse sobre o ícone */
+}
+
+/* Quando o card estiver ativo, vamos mostrá-lo */
+.card.active {
+  display: block;
+}
 
 #footer {
   background-color: rgb(10, 10, 80); /* Azul escuro para combinar com a navbar */

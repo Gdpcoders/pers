@@ -19,9 +19,7 @@
           &#9776; <!-- Ícone de 3 riscos -->
           </button>
         </div>
-        
-        
-        
+
       </div>
       <div id="sidePanel">
         <ul>
@@ -33,14 +31,36 @@
         </ul>
       </div>
       
-      <div class= "sep">
+      <div class="sep">
         <div class="codes">
-          <div class="langs" id="py" ><i class="devicon-python-plain colored"></i></div>
-          <div class="langs" id="cmore" ><i class="devicon-cplusplus-plain colored"></i></div>
-          <div class="langs" id="js" ><i class="devicon-javascript-plain colored"></i></div>
+          <div class="langs" id="py" onclick="showCard('python')">
+            <i class="devicon-python-plain colored"></i>
+          </div>
+          <div class="langs" id="cmore" onclick="showCard('cplusplus')">
+            <i class="devicon-cplusplus-plain colored"></i>
+          </div>
+          <div class="langs" id="js" onclick="showCard('javascript')">
+            <i class="devicon-javascript-plain colored"></i>
+          </div>
         </div>
-        
       </div>
+      
+      <!-- Cards escondidos -->
+      <div id="card-python" class="card">
+        <h3>Python</h3>
+        <p>Experiência com automação, análise de dados e desenvolvimento de scripts.</p>
+      </div>
+      
+      <div id="card-cplusplus" class="card">
+        <h3>C++</h3>
+        <p>Experiência em desenvolvimento de sistemas de baixo nível e aplicações de alto desempenho.</p>
+      </div>
+      
+      <div id="card-javascript" class="card">
+        <h3>JavaScript</h3>
+        <p>Experiência em desenvolvimento front-end, manipulação de DOM e criação de interfaces dinâmicas.</p>
+      </div>
+      
       
 
       <script>
