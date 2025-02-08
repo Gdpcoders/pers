@@ -143,6 +143,7 @@ margin: 1em 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px; 
   border-radius: 5px;
   font-size: calc(1rem + 0.5vw);
   font-weight: bold;
@@ -161,6 +162,11 @@ margin: 1em 0;
 #js {
   background-color: #c0bd07;
 }
+
+i {
+  font-size: 50px; /* Tamanho dos ícones */
+}
+
 #footer {
   background-color: rgb(10, 10, 80); /* Azul escuro para combinar com a navbar */
   color: white;
