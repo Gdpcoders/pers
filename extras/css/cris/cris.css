@@ -56,7 +56,7 @@ a:visited {
 }
 
 #searchForm input {
-  width: 10vw;
+  width: 20vw;
   height: 1.8vh;
   border-radius: 40px;
   background-color: black;
@@ -67,7 +67,7 @@ a:visited {
 }
 
 #searchForm button {
-  width: 10vw;
+  width: 20vw;
   height: 1.8vh;
   border-radius: 40px;
   background-color: black;
@@ -176,6 +176,16 @@ margin: 1em 0;
   color: white; /* Contraste com fundo preto */
 }
 
+#footer {
+  background-color: rgb(10, 10, 80); /* Azul escuro para combinar com a navbar */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed; /* Fica fixo no final do conteúdo */
+  bottom: 0;
+  width: 100%;
+  }
+  
 @media (max-width: 768px) {
   .codes {
     grid-template-columns: repeat(2, 1fr); /* Muda para duas colunas */
@@ -215,15 +225,4 @@ margin: 1em 0;
 /* Estilo quando o painel está ativo */
 #sidePanel.active {
 left: 0; /* Mostra o painel */
-}
-
-
-#footer {
-background-color: rgb(10, 10, 80); /* Azul escuro para combinar com a navbar */
-color: white;
-text-align: center;
-padding: 10px;
-position: fixed; /* Fica fixo no final do conteúdo */
-bottom: 0;
-width: 100%;
 }
