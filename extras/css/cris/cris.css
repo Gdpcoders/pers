@@ -152,20 +152,36 @@ margin: 1em 0;
 }
 
 #py {
-  background-color: #306998; /* Azul Python */
+  background-color: #306998; 
+}
+
+#py:hover {
+  background-color: #153385;
 }
 
 #cmore {
-  background-color: #921a92; /* Laranja HTML */
+  background-color: #5e98e4; 
+}
+
+#cmore:hover {
+  background-color: #060872;
 }
 
 #js {
   background-color: #c0bd07;
 }
 
+#js:hover {
+  background-color: #8b940a;
+}
+
 i {
   font-size: 50px; /* Tamanho dos ícones */
 }
+
+.devicon-python-plain { color: #3776AB; }  /* Azul do Python */
+.devicon-cplusplus-plain { color: #00599C; } /* Azul escuro do C++ */
+.devicon-javascript-plain { color: #F7DF1E; } /* Amarelo do JS */
 
 #footer {
   background-color: rgb(10, 10, 80); /* Azul escuro para combinar com a navbar */
